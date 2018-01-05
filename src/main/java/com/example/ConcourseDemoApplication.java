@@ -13,7 +13,7 @@ public class ConcourseDemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ConcourseDemoApplication.class, args);
 	}    
-
+   
 	@Value("${app.version}")
 	private String _version;
 
